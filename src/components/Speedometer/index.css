@@ -1,0 +1,49 @@
+.speedometer-container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.speed-in-kmph {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cbd5e1;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 18px;
+  border: 0px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.apply-break-btn {
+  background-color: transparent;
+  border: 3px solid #94a3b8;
+  color: #94a3b8;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.speedometer-img {
+  width: 50%;
+}
